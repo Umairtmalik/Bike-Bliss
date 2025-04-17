@@ -3,7 +3,6 @@
 
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-
 const Navbar = () => {
   return (
 <header className="w-full bg-[#14121F] text-white shadow-md">
@@ -31,7 +30,7 @@ const Navbar = () => {
     </ul>
 
     <div className="hidden md:block">
-      <Button className="bg-[#56468B] border border-white hover:bg-[#2d2646] text-white">
+      <Button className="bg-[#56468B] border border-[#56468B] hover:bg-[#2d2646] text-white">
         Contact
       </Button>
     </div>

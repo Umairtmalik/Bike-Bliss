@@ -2,7 +2,8 @@ import HeroSection from "../components/HeroSection";
 import FeaturesSection from "../components/FeatureSection";
 import Testimonial from "@/components/Testimonial";
 import FAQ from "../components/FAQ";
-
+import CollectionExploration from "../components/CollectionExploration";
+import Footer from "../components/Footer";
 export default function Home() {
   return (
     <main>
@@ -10,10 +11,8 @@ export default function Home() {
       <FeaturesSection />
       <Testimonial />
       <FAQ />
-      {/* Add more sections as needed */}
-      {/* Other sections like Testimonials, FAQs, etc. can be added here */}
-      {/* Add more sections as needed */}
-      {/* Other sections like Testimonials, FAQs, etc. can be added here */}
+      <CollectionExploration />
+      <Footer />
     </main>
   );
 }
