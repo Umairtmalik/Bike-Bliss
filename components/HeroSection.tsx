@@ -19,10 +19,10 @@ export default function HeroSection() {
 
         {/* CTA Button */}
 
-        {/* Bike Container with glowing background */}
         <Button className="bg-[#56468B] hover:bg-purple-700 text-white px-6 py-3 text-lg rounded-full">
           Buy Now
         </Button>
+        {/* Bike Container with glowing background */}
         <div className="relative w-full max-w-2xl mt-1 rounded-[70px]  p-3 bg-white/50 backdrop-blur-2xl shadow-[0_0px_0px_rgba(0,0,0,0.1)]">
   {/* Vignette-style background image with inset shadow */}
   <div
