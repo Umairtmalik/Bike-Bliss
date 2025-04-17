@@ -15,7 +15,7 @@ const Testimonials = () => {
           />
           <div className="text-center">
             <p className="text-lg font-medium">John S</p> 
-            <p className="text-sm text-gray-400">Position, Company Name</p> 
+            <p className="text-md text-gray-400">Position, Company Name</p> 
           </div>
         </div>
 
