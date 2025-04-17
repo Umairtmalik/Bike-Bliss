@@ -1,6 +1,7 @@
+// app/layout.tsx
 import "./globals.css";
-import Navbar from "../components\\ui/Navbar";
-
+import Navbar from "../components/ui/Navbar";
+import { SessionWrapper } from "../components/SessionWrapper";
 
 export const metadata = {
   title: "Bike Bliss",
@@ -15,8 +16,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Navbar />
-        {children}
+        <SessionWrapper>
+          <Navbar />
+          {children}
+        </SessionWrapper>
       </body>
     </html>
   );
